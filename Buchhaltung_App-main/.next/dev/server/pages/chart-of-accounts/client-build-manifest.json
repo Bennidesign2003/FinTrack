@@ -1,0 +1,5 @@
+{
+  "/chart-of-accounts": [
+    "static/chunks/pages/chart-of-accounts.js"
+  ]
+}

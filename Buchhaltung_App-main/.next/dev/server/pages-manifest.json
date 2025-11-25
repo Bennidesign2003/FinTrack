@@ -1,0 +1,19 @@
+{
+  "/": "pages/index.js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/api/customers": "pages/api/customers.js",
+  "/api/expenses": "pages/api/expenses.js",
+  "/api/expenses-distribution": "pages/api/expenses-distribution.js",
+  "/api/expenses-trend": "pages/api/expenses-trend.js",
+  "/api/invoices": "pages/api/invoices.js",
+  "/api/stats": "pages/api/stats.js",
+  "/api/suppliers": "pages/api/suppliers.js",
+  "/chart-of-accounts": "pages/chart-of-accounts.js",
+  "/customers": "pages/customers.js",
+  "/invoices": "pages/invoices.js",
+  "/payments": "pages/payments.js",
+  "/reports": "pages/reports.js",
+  "/suppliers": "pages/suppliers.js"
+}
