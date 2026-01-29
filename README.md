@@ -1,187 +1,101 @@
-<div align="center">
+# Buchhaltungssoftware - Version 0 (V0)
 
-# 📊 FinTrack - Buchhaltungssoftware
+![Buchhaltungssoftware Logo](https://cdn3d.iconscout.com/3d/premium/thumb/accounting-3d-icon-png-download-8149531.png)
 
-**Moderne Buchhaltungslösung für kleine und mittelständische Unternehmen**
-
-[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-
-[Funktionen](#-funktionen) • [Screenshots](#-screenshots) • [Installation](#-installation) • [Technologien](#-technologien) • [Lizenz](#-lizenz)
-
-</div>
+**Beschreibung**  
+Diese Buchhaltungssoftware bietet eine einfache und benutzerfreundliche Lösung für kleine und mittelständische Unternehmen zur Verwaltung ihrer Finanzen. Version 0 (V0) umfasst grundlegende Funktionen für die Rechnungsstellung, Zahlungsverarbeitung, Kunden- und Lieferantenverwaltung sowie einfache Finanzberichte.
 
 ---
 
-## 🎯 Übersicht
+## Schnellstart: Next.js App
 
-FinTrack ist eine leistungsstarke, benutzerfreundliche Buchhaltungssoftware, die speziell für kleine und mittelständische Unternehmen entwickelt wurde. Mit einem modernen Glasmorphismus-Design und einer intuitiven Benutzeroberfläche ermöglicht FinTrack eine effiziente Verwaltung von Finanzen, Rechnungen und Geschäftsbeziehungen.
+Dieses Repository enthält jetzt ein Scaffold für eine Next.js-Anwendung mit TypeScript und Tailwind CSS.
 
----
-
-## ✨ Funktionen
-
-### 📈 Dashboard
-- **Echtzeit-Übersicht** über Gesamtumsatz, offene Rechnungen, Ausgaben und Gewinn
-- **Interaktive Diagramme** für Umsatzentwicklung und Ausgabenverteilung
-- **Drag & Drop Widgets** für individuelle Dashboard-Anpassung
-- **Schnellaktionen** für häufige Aufgaben
-
-### 👥 Kundenverwaltung
-- Erstellen und verwalten von Kundenprofilen
-- Kontaktinformationen, Adressen und Steuernummern
-- Übersichtliche Kundenliste mit Suchfunktion
-
-### 🏢 Lieferantenverwaltung
-- Komplette Lieferantendatenbank
-- Geschäftspartner-Informationen zentral verwalten
-- Schneller Zugriff auf Kontaktdaten
-
-### 📄 Rechnungsstellung
-- Professionelle Rechnungserstellung
-- Automatische Mehrwertsteuerberechnung
-- Status-Tracking (Offen, Bezahlt, Überfällig)
-- Rechnungshistorie und -verwaltung
-
-### 💳 Zahlungsmanagement
-- Zahlungseingänge und -ausgänge verfolgen
-- Verknüpfung mit Bankkonten
-- Übersichtliche Transaktionslisten
-
-### 📊 Berichte & Analysen
-- Gewinn- und Verlustrechnung (GuV)
-- Umsatzsteuer-Voranmeldung
-- Visuelle Datenanalysen mit Chart.js
-
-### 📁 Kontenplan
-- Strukturierte Kategorisierung von Einnahmen und Ausgaben
-- Übersichtlicher Kontenrahmen
-- Einfache Buchungszuordnung
-
----
-
-## 📸 Screenshots
-
-<div align="center">
-
-![Dashboard](Buchhaltung_App-main/Screenshot%202025-11-24%20145505.png)
-
-*Modernes Dashboard mit Glasmorphismus-Design*
-
-</div>
-
----
-
-## 🚀 Installation
-
-### Voraussetzungen
-
-- **Node.js** (Version 18 oder höher)
-- **npm** oder **yarn**
-
-### Schnellstart
+1. Abhängigkeiten installieren
 
 ```bash
-# Repository klonen
-git clone https://github.com/Bennidesign2003/Buchhaltung_App.git
-
-# In das Projektverzeichnis wechseln
-cd Buchhaltung_App/Buchhaltung_App-main
-
-# Abhängigkeiten installieren
+cd /workspaces/Buchhaltung_App
 npm install
+```
 
-# Datenbank initialisieren
-npm run db:push
+2. Dev-Server starten
 
-# Entwicklungsserver starten
+```bash
 npm run dev
 ```
 
-> **Hinweis:** Der Quellcode befindet sich im Unterordner `Buchhaltung_App-main/`.
+3. Öffne im Browser: `http://localhost:3000`
 
-Öffne [http://localhost:3000](http://localhost:3000) im Browser.
+Die App enthält Beispielseiten:
 
-### Produktions-Build
+- `pages/index.tsx` — Startseite
+- `pages/about.tsx` — Beispielseite
+- `pages/api/hello.ts` — Beispiel-API-Route
+
+Eine MongoDB-Verbindungs-Hilfe befindet sich in `lib/mongodb.ts` (verwende `MONGODB_URI` Umgebungsvariable).
+
+---
+
+## Features
+
+- **Kundenverwaltung:** Erstellen und verwalten von Kundenprofilen mit relevanten Informationen (Name, Adresse, Steuernummer).
+- **Lieferantenverwaltung:** Speichern von Lieferanteninformationen zur Verwaltung von Geschäftspartnerschaften.
+- **Rechnungsstellung:** Erstellen und verwalten von Rechnungen, mit Rechnungsnummer, Beträgen und Mehrwertsteuerberechnung.
+- **Zahlungsbuchungen:** Verwalten von Zahlungseingängen und -ausgängen sowie Verknüpfung mit Bankkonten.
+- **Finanzberichte:** Generierung einer einfachen Gewinn- und Verlustrechnung (GuV) sowie Umsatzsteuer-Voranmeldung.
+- **Kontenplan:** Kategorisierung von Einnahmen und Ausgaben in einem strukturierten Kontenplan.
+- **Datensicherung:** Automatische Sicherung der Daten zur Vermeidung von Datenverlust.
+
+---
+
+## Technologien
+
+Diese Buchhaltungssoftware nutzt unter anderem folgende Technologien:
+
+### Frontend:
+- **React / Next.js** (für die Benutzeroberfläche)
+- **Tailwind CSS** (für Design und Layout)
+
+### Backend / Sonstiges:
+- **Node.js** (für die Serverlogik)
+- **Next.js API Routes** (für einfache Server-APIs)
+- **MongoDB / Mongoose** (DB-Zugang als Template)
+
+## Installation (ausführlich)
+
+### Voraussetzungen
+
+- Node.js (Version 14 oder höher)
+- Optional: MongoDB (lokale Instanz oder MongoDB Atlas) wenn du DB-Funktionen testen willst
+
+### Schritte zur Installation
+
+1. **Repository klonen** (falls noch nicht geschehen)
 
 ```bash
-# Build erstellen
+git clone <dein-repo-url>
+cd Buchhaltung_App
+```
+
+2. **Abhängigkeiten installieren**
+
+```bash
+npm install
+```
+
+3. **Dev-Server starten**
+
+```bash
+npm run dev
+```
+
+4. **Build & Produktion**
+
+```bash
 npm run build
-
-# Produktionsserver starten
-npm start
+npm run start
 ```
 
 ---
 
-## 🛠 Technologien
-
-| Kategorie | Technologie |
-|-----------|-------------|
-| **Frontend** | Next.js, React, TypeScript |
-| **Styling** | Tailwind CSS, Glasmorphismus-Design |
-| **Datenbank** | SQLite mit Drizzle ORM |
-| **Diagramme** | Chart.js, react-chartjs-2 |
-| **Icons** | Heroicons |
-| **Linting** | ESLint, Prettier |
-
----
-
-## 📁 Projektstruktur
-
-```
-Buchhaltung_App-main/
-├── components/          # React-Komponenten
-│   ├── Dashboard*.tsx   # Dashboard-Widgets
-│   ├── *Modal.tsx       # Modal-Dialoge
-│   └── *Chart.tsx       # Diagramm-Komponenten
-├── pages/               # Next.js Seiten
-│   ├── api/             # API-Routen
-│   ├── customers.tsx    # Kundenverwaltung
-│   ├── invoices.tsx     # Rechnungen
-│   └── ...
-├── db/                  # Datenbank-Schema
-├── lib/                 # Hilfsfunktionen
-└── styles/              # Globale Styles
-```
-
----
-
-## 📜 Verfügbare Skripte
-
-| Befehl | Beschreibung |
-|--------|--------------|
-| `npm run dev` | Startet den Entwicklungsserver |
-| `npm run build` | Erstellt den Produktions-Build |
-| `npm start` | Startet den Produktionsserver |
-| `npm run lint` | Führt ESLint aus |
-| `npm run db:push` | Synchronisiert das Datenbankschema |
-| `npm run db:studio` | Öffnet Drizzle Studio |
-
----
-
-## 🤝 Mitwirken
-
-Beiträge sind willkommen! Bitte erstelle einen Fork des Repositories und reiche einen Pull Request ein.
-
-1. Fork erstellen
-2. Feature-Branch erstellen (`git checkout -b feature/AmazingFeature`)
-3. Änderungen committen (`git commit -m 'Add some AmazingFeature'`)
-4. Branch pushen (`git push origin feature/AmazingFeature`)
-5. Pull Request erstellen
-
----
-
-## 📄 Lizenz
-
-Dieses Projekt ist unter der MIT-Lizenz lizenziert.
-
----
-
-<div align="center">
-
-**Entwickelt mit ❤️ für effizientes Finanzmanagement**
-
-</div>
+Wenn du möchtest, richte ich jetzt optional ein vollständiges Auth-/DB-Beispiel ein oder binde spezifische Features (Rechnungen, Kunden-CRUD etc.).
