@@ -2,24 +2,6 @@ self.__BUILD_MANIFEST = {
   "/": [
     "static/chunks/pages/index.js"
   ],
-  "/chart-of-accounts": [
-    "static/chunks/pages/chart-of-accounts.js"
-  ],
-  "/customers": [
-    "static/chunks/pages/customers.js"
-  ],
-  "/invoices": [
-    "static/chunks/pages/invoices.js"
-  ],
-  "/payments": [
-    "static/chunks/pages/payments.js"
-  ],
-  "/reports": [
-    "static/chunks/pages/reports.js"
-  ],
-  "/suppliers": [
-    "static/chunks/pages/suppliers.js"
-  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],
