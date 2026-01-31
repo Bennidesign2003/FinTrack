@@ -22,7 +22,7 @@ export default function PieChart() {
     responsive: true,
     plugins: {
       legend: {
-        position: 'right',
+        position: 'right' as const,
         labels: { color: chartTextColor }
       },
       tooltip: {
