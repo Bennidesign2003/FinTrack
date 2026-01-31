@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/Buchhaltung_App/Buchhaltung_App-main/pages/_app.tsx"],"sourcesContent":["import type { AppProps } from 'next/app'\nimport '../styles/globals.css'\n\nexport default function MyApp({ Component, pageProps }: AppProps) {\n  return <Component {...pageProps} />\n}\n"],"names":[],"mappings":";;;;;;;AAGe,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAY;IAC9D,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC"}}]
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///home/runner/work/FinTrack/FinTrack/Buchhaltung_App-main/pages/_app.tsx"],"sourcesContent":["import type { AppProps } from 'next/app'\nimport '../styles/globals.css'\n\nexport default function MyApp({ Component, pageProps }: AppProps) {\n  return <Component {...pageProps} />\n}\n"],"names":[],"mappings":";;;;;;;AAGe,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAY;IAC9D,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC"}}]
 }
