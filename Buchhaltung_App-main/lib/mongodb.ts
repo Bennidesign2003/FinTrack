@@ -7,7 +7,11 @@ if (!MONGODB_URI) {
   console.warn('No MONGODB_URI env var set for MongoDB connection (lib/mongodb.ts)')
 }
 
-let cached: { conn: typeof mongoose | null; promise: Promise<typeof mongoose> | null } = globalThis['mongoose_cache'] || { conn: null, promise: null }
+declare global {
+  var mongoose_cache: { conn: typeof mongoose | null; promise: Promise<typeof mongoose> | null } | undefined
+}
+
+let cached: { conn: typeof mongoose | null; promise: Promise<typeof mongoose> | null } = global.mongoose_cache || { conn: null, promise: null }
 
 if (!cached) cached = { conn: null, promise: null }
 
@@ -19,7 +23,7 @@ export async function connectToDatabase() {
   }
 
   cached.conn = await cached.promise
-  globalThis['mongoose_cache'] = cached
+  global.mongoose_cache = cached
   return cached.conn
 }
 
