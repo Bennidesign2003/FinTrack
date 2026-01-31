@@ -1,22 +1,43 @@
-[00:00:00.692] Server  LOG      ✓ Ready in 416ms
-[00:00:29.772] Browser DEBUG   LineChart: received invoices count 6
-[00:00:29.772] Browser DEBUG   LineChart: first invoice sample {"amount":10,"createdAt":"2025-11-24 15:00:37","customer":"Kling AI","description":null,"dueDate":"2025-11-24","id":3,"status":"open","taxAmount":1.9,"taxRate":19,"title":"","totalAmount":11.9,"updatedAt":"2025-11-24 15:00:37"}
-[00:00:29.772] Browser DEBUG   LineChart: processing invoice {"amt":11.9,"id":3,"parsed":11.9,"rawAmt":11.9,"ym":"2025-11"}
-[00:00:29.772] Browser DEBUG   LineChart: processing invoice {"amt":11.9,"id":4,"parsed":11.9,"rawAmt":11.9,"ym":"2025-11"}
-[00:00:29.772] Browser DEBUG   LineChart: processing invoice {"amt":26.18,"id":5,"parsed":26.18,"rawAmt":26.18,"ym":"2025-11"}
-[00:00:29.772] Browser DEBUG   LineChart: processing invoice {"amt":76.16,"id":9,"parsed":76.16,"rawAmt":76.16,"ym":"2025-11"}
-[00:00:29.772] Browser DEBUG   totalsByMonth {"2025-11":126.14}
-[00:00:29.772] Browser DEBUG   LineChart: month 2025-02 -> totalsByMonth[2025-02]=undefined -> result=0
-[00:00:29.772] Browser DEBUG   LineChart: month 2025-03 -> totalsByMonth[2025-03]=undefined -> result=0
-[00:00:29.772] Browser DEBUG   LineChart: month 2025-04 -> totalsByMonth[2025-04]=undefined -> result=0
-[00:00:29.772] Browser DEBUG   LineChart: month 2025-05 -> totalsByMonth[2025-05]=undefined -> result=0
-[00:00:29.772] Browser DEBUG   LineChart: month 2025-06 -> totalsByMonth[2025-06]=undefined -> result=0
-[00:00:29.772] Browser DEBUG   LineChart: month 2025-07 -> totalsByMonth[2025-07]=undefined -> result=0
-[00:00:29.772] Browser DEBUG   LineChart: month 2025-08 -> totalsByMonth[2025-08]=undefined -> result=0
-[00:00:29.772] Browser DEBUG   LineChart: month 2025-09 -> totalsByMonth[2025-09]=undefined -> result=0
-[00:00:29.772] Browser DEBUG   LineChart: month 2025-10 -> totalsByMonth[2025-10]=undefined -> result=0
-[00:00:29.772] Browser DEBUG   LineChart: month 2025-11 -> totalsByMonth[2025-11]=126.14 -> result=126.14
-[00:00:29.772] Browser DEBUG   LineChart: month 2025-12 -> totalsByMonth[2025-12]=undefined -> result=0
-[00:00:29.772] Browser DEBUG   LineChart: month 2026-01 -> totalsByMonth[2026-01]=undefined -> result=0
-[00:00:29.772] Browser DEBUG   LineChart: months/totals ["2025-02","2025-03","2025-04","2025-05","2025-06","2025-07","2025-08","2025-09","2025-10","2025-11","2025-12","2026-01"] [0,0,0,0,0,0,0,0,0,126.14,0,0]
-[00:00:29.772] Browser DEBUG   LineChart: final values array: [0,0,0,0,0,0,0,0,0,126.14,0,0]
+[00:00:00.705] Server  LOG      ✓ Ready in 424ms
+[00:00:15.144] Browser DEBUG   LineChart: received invoices count 6
+[00:00:15.144] Browser DEBUG   LineChart: first invoice sample {"amount":10,"createdAt":"2025-11-24 15:00:37","customer":"Kling AI","description":null,"dueDate":"2025-11-24","id":3,"status":"open","taxAmount":1.9,"taxRate":19,"title":"","totalAmount":11.9,"updatedAt":"2025-11-24 15:00:37"}
+[00:00:15.144] Browser DEBUG   LineChart: processing invoice {"amt":11.9,"id":3,"parsed":11.9,"rawAmt":11.9,"ym":"2025-11"}
+[00:00:15.144] Browser DEBUG   LineChart: processing invoice {"amt":11.9,"id":4,"parsed":11.9,"rawAmt":11.9,"ym":"2025-11"}
+[00:00:15.144] Browser DEBUG   LineChart: processing invoice {"amt":26.18,"id":5,"parsed":26.18,"rawAmt":26.18,"ym":"2025-11"}
+[00:00:15.144] Browser DEBUG   LineChart: processing invoice {"amt":76.16,"id":9,"parsed":76.16,"rawAmt":76.16,"ym":"2025-11"}
+[00:00:15.144] Browser DEBUG   totalsByMonth {"2025-11":126.14}
+[00:00:15.144] Browser DEBUG   LineChart: month 2025-02 -> totalsByMonth[2025-02]=undefined -> result=0
+[00:00:15.144] Browser DEBUG   LineChart: month 2025-03 -> totalsByMonth[2025-03]=undefined -> result=0
+[00:00:15.144] Browser DEBUG   LineChart: month 2025-04 -> totalsByMonth[2025-04]=undefined -> result=0
+[00:00:15.144] Browser DEBUG   LineChart: month 2025-05 -> totalsByMonth[2025-05]=undefined -> result=0
+[00:00:15.144] Browser DEBUG   LineChart: month 2025-06 -> totalsByMonth[2025-06]=undefined -> result=0
+[00:00:15.144] Browser DEBUG   LineChart: month 2025-07 -> totalsByMonth[2025-07]=undefined -> result=0
+[00:00:15.144] Browser DEBUG   LineChart: month 2025-08 -> totalsByMonth[2025-08]=undefined -> result=0
+[00:00:15.144] Browser DEBUG   LineChart: month 2025-09 -> totalsByMonth[2025-09]=undefined -> result=0
+[00:00:15.144] Browser DEBUG   LineChart: month 2025-10 -> totalsByMonth[2025-10]=undefined -> result=0
+[00:00:15.144] Browser DEBUG   LineChart: month 2025-11 -> totalsByMonth[2025-11]=126.14 -> result=126.14
+[00:00:15.144] Browser DEBUG   LineChart: month 2025-12 -> totalsByMonth[2025-12]=undefined -> result=0
+[00:00:15.144] Browser DEBUG   LineChart: month 2026-01 -> totalsByMonth[2026-01]=undefined -> result=0
+[00:00:15.144] Browser DEBUG   LineChart: months/totals ["2025-02","2025-03","2025-04","2025-05","2025-06","2025-07","2025-08","2025-09","2025-10","2025-11","2025-12","2026-01"] [0,0,0,0,0,0,0,0,0,126.14,0,0]
+[00:00:15.144] Browser DEBUG   LineChart: final values array: [0,0,0,0,0,0,0,0,0,126.14,0,0]
+[00:00:30.003] Browser DEBUG   LineChart: received invoices count 6
+[00:00:30.003] Browser DEBUG   LineChart: first invoice sample {"amount":10,"createdAt":"2025-11-24 15:00:37","customer":"Kling AI","description":null,"dueDate":"2025-11-24","id":3,"status":"open","taxAmount":1.9,"taxRate":19,"title":"","totalAmount":11.9,"updatedAt":"2025-11-24 15:00:37"}
+[00:00:30.003] Browser DEBUG   LineChart: processing invoice {"amt":11.9,"id":3,"parsed":11.9,"rawAmt":11.9,"ym":"2025-11"}
+[00:00:30.003] Browser DEBUG   LineChart: processing invoice {"amt":11.9,"id":4,"parsed":11.9,"rawAmt":11.9,"ym":"2025-11"}
+[00:00:30.003] Browser DEBUG   LineChart: processing invoice {"amt":26.18,"id":5,"parsed":26.18,"rawAmt":26.18,"ym":"2025-11"}
+[00:00:30.003] Browser DEBUG   LineChart: processing invoice {"amt":76.16,"id":9,"parsed":76.16,"rawAmt":76.16,"ym":"2025-11"}
+[00:00:30.003] Browser DEBUG   totalsByMonth {"2025-11":126.14}
+[00:00:30.003] Browser DEBUG   LineChart: month 2025-02 -> totalsByMonth[2025-02]=undefined -> result=0
+[00:00:30.003] Browser DEBUG   LineChart: month 2025-03 -> totalsByMonth[2025-03]=undefined -> result=0
+[00:00:30.003] Browser DEBUG   LineChart: month 2025-04 -> totalsByMonth[2025-04]=undefined -> result=0
+[00:00:30.003] Browser DEBUG   LineChart: month 2025-05 -> totalsByMonth[2025-05]=undefined -> result=0
+[00:00:30.003] Browser DEBUG   LineChart: month 2025-06 -> totalsByMonth[2025-06]=undefined -> result=0
+[00:00:30.003] Browser DEBUG   LineChart: month 2025-07 -> totalsByMonth[2025-07]=undefined -> result=0
+[00:00:30.003] Browser DEBUG   LineChart: month 2025-08 -> totalsByMonth[2025-08]=undefined -> result=0
+[00:00:30.003] Browser DEBUG   LineChart: month 2025-09 -> totalsByMonth[2025-09]=undefined -> result=0
+[00:00:30.003] Browser DEBUG   LineChart: month 2025-10 -> totalsByMonth[2025-10]=undefined -> result=0
+[00:00:30.003] Browser DEBUG   LineChart: month 2025-11 -> totalsByMonth[2025-11]=126.14 -> result=126.14
+[00:00:30.003] Browser DEBUG   LineChart: month 2025-12 -> totalsByMonth[2025-12]=undefined -> result=0
+[00:00:30.003] Browser DEBUG   LineChart: month 2026-01 -> totalsByMonth[2026-01]=undefined -> result=0
+[00:00:30.003] Browser DEBUG   LineChart: months/totals ["2025-02","2025-03","2025-04","2025-05","2025-06","2025-07","2025-08","2025-09","2025-10","2025-11","2025-12","2026-01"] [0,0,0,0,0,0,0,0,0,126.14,0,0]
+[00:00:30.004] Browser DEBUG   LineChart: final values array: [0,0,0,0,0,0,0,0,0,126.14,0,0]

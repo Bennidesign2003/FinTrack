@@ -7,7 +7,5 @@
   "/api/expenses-distribution": "pages/api/expenses-distribution.js",
   "/api/expenses-trend": "pages/api/expenses-trend.js",
   "/api/invoices": "pages/api/invoices.js",
-  "/api/stats": "pages/api/stats.js",
-  "/customers": "pages/customers.js",
-  "/invoices": "pages/invoices.js"
+  "/api/stats": "pages/api/stats.js"
 }
